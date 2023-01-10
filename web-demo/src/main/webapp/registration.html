@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="<%=request.getContextPath() %>/Register" method="post">
+  <label>UserName:</label>
+  <input type="text" name="uname"><br> <br>
+  <label>Password:</label>
+  <input type="text" name="pswd1"><br> <br>
+  <label>Repeat Password:</label>
+  <input type="password" name="pswd2"><br> <br>
+  <label>Email:</label>
+  <input type="email" name="email"><br> <br>
+  <label for="hoby">Hobby: </label>
+  <select name="hoby">
+    <option>Singing</option>
+    <option>playing</option>
+    <option>Studying</option>
+    <option>Dancing</option>
+    </select><br> <br>
+  
+  <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
